@@ -1,0 +1,62 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: arial
+}
+
+.navbar-brand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+}
+
+body {
+    background: #eee;
+}
+
+.nav-link{
+    margin: 10px;
+}
+
+
+.wrapper {
+    position: relative;
+}
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #ffff;
+    padding: 10px 0
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px
+}
+
+.wrapper .sidebar ul li a {
+    color: #797979;
+    display: block
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px !important
+}
+
+.wrapper .sidebar ul li a .far {
+    width: 25px !important
+}
+
+.wrapper .sidebar ul li:hover {
+    color: #0d3fac
+}
+
+.wrapper .sidebar ul li a:hover {
+    color: #0d3fac;
+    text-decoration: none
+}
+.headerLogo{
+    width: 75px;
+}
